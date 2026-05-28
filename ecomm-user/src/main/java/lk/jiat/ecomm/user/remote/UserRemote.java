@@ -8,12 +8,12 @@ import java.util.List;
 @Remote
 public interface UserRemote {
 
-    UserDTO getUser(String username);
+    UserDTO getUser(Long id);
     UserDTO getUserByEmail(String email);
     UserDTO createUser(UserDTO user);
     UserDTO updateUser(UserDTO user);
     void deleteUser(String username);
-    List getAllUsers();
+    List<UserDTO> getAllUsers();
 
 }
 

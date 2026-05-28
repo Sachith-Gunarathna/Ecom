@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class UserDTO implements Serializable {
 
-    private String username;
+    private Long id;
     private String password;
     private String firstName;
     private String lastName;
@@ -13,19 +13,19 @@ public class UserDTO implements Serializable {
 
     public UserDTO() {
     }
-    public UserDTO(String username, String password, String firstName, String lastName, String email, String contact) {
-        this.username = username;
+    public UserDTO(Long id, String password, String firstName, String lastName, String email, String contact) {
+        this.id = id;
         this.password = password;
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.contact = contact;
     }
-    public String getUsername() {
-        return username;
+    public Long getUser() {
+        return id;
     }
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUsername(Long id) {
+        this.id = id;
     }
     public String getPassword() {
         return password;
@@ -61,7 +61,7 @@ public class UserDTO implements Serializable {
     public String toString() {
         return "UserDTO" +
                 "{" +
-                    "username=" + username + "," +
+                    "id=" + id + "," +
                     " password=" + password + ", " +
                     "firstName=" + firstName + "," +
                     " lastName=" + lastName + ", " +

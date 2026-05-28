@@ -8,32 +8,32 @@ import java.util.List;
 public class UserSessionBean implements UserRemote {
 
     @Override
-    public UserDTO getUser(String username) {
-        return null;
+    public UserDTO getUser(Long id) {
+        return new UserDTO();
     }
 
     @Override
     public UserDTO getUserByEmail(String email) {
-        return null;
+        return new UserDTO();
     }
 
     @Override
     public UserDTO createUser(UserDTO user) {
-        return null;
+        return new UserDTO();
     }
 
     @Override
     public UserDTO updateUser(UserDTO user) {
-        return null;
+        return new UserDTO();
     }
 
     @Override
     public void deleteUser(String username) {
-
+        System.out.println("UserSessionBean: deleteUser");
     }
 
     @Override
-    public List getAllUsers() {
+    public List<UserDTO> getAllUsers() {
         return List.of();
     }
 }
