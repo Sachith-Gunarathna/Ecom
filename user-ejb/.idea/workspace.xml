@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c21c20ca-f961-408e-9b5c-eaa28f78cc34" name="Changes" comment="1.0.1">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/jiat/ecomm/user/remote/UserRemote.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="9" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Sachith-Gunarathna"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sachith-Gunarathna/Ecom.git",
+    "accountId": "237ad418-48a3-45a7-94b9-7ee0d151e0e0"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0518933045962524" />
+      <entry key="MS500" value="1.9200179438439737" />
+      <entry key="S2" value="2.643106082116377" />
+      <entry key="S5" value="2.8484142837130575" />
+      <entry key="S10" value="2.9226511721512236" />
+      <entry key="S30" value="2.973863045175336" />
+      <entry key="S60" value="2.986888099314665" />
+      <entry key="M2" value="2.995755836867891" />
+      <entry key="M5" value="3.2003997950494623" />
+      <entry key="M10" value="3.899809580254238" />
+      <entry key="M15" value="4.480064318466274" />
+      <entry key="M30" value="5.433424733912389" />
+      <entry key="H1" value="6.119944556099649" />
+      <entry key="H2" value="6.532686063037047" />
+      <entry key="H4" value="6.759091362431891" />
+      <entry key="D1" value="6.958802661596723" />
+      <entry key="W1" value="6.994088531508655" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="4.1875423493624167E-82" />
+      <entry key="S2" value="4.524760906103245E-21" />
+      <entry key="S5" value="7.542268596725018E-9" />
+      <entry key="S10" value="1.014905252106652E-4" />
+      <entry key="S30" value="0.06930779449691916" />
+      <entry key="S60" value="0.3688306831659733" />
+      <entry key="M2" value="0.8625603686329654" />
+      <entry key="M5" value="1.8981821775654624" />
+      <entry key="M10" value="3.752971779018843" />
+      <entry key="M15" value="5.159320062265033" />
+      <entry key="M30" value="7.3999344712284" />
+      <entry key="H1" value="8.986191913375931" />
+      <entry key="H2" value="9.932924928960347" />
+      <entry key="H4" value="10.45048582391337" />
+      <entry key="D1" value="10.906111311964466" />
+      <entry key="W1" value="10.986529801421883" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.007907709539912" />
+      <entry key="MS500" value="1.8992707875935018" />
+      <entry key="S2" value="2.6353670845760018" />
+      <entry key="S5" value="2.845026337590389" />
+      <entry key="S10" value="2.9209913452171943" />
+      <entry key="S30" value="3.039155649666452" />
+      <entry key="S60" value="3.3462206275991226" />
+      <entry key="M2" value="3.8473683063912487" />
+      <entry key="M5" value="5.089499898692392" />
+      <entry key="M10" value="7.644448593111324" />
+      <entry key="M15" value="9.631949344290316" />
+      <entry key="M30" value="12.82815335549246" />
+      <entry key="H1" value="15.103008343415183" />
+      <entry key="H2" value="16.463890390728057" />
+      <entry key="H4" value="17.208674120402904" />
+      <entry key="D1" value="17.86475718987596" />
+      <entry key="W1" value="17.980595777123128" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EL1mjIHbTRP2qb0wtD2W1h3SJ6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/MY/Documents/BCD/Practicles/Ecom/user-ejb",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c21c20ca-f961-408e-9b5c-eaa28f78cc34" name="Changes" comment="" />
+      <created>1779943201849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779943201849</updated>
+      <workItem from="1779943203784" duration="3000" />
+      <workItem from="1779943408514" duration="1943000" />
+    </task>
+    <task id="LOCAL-00001" summary="1.0.1">
+      <option name="closed" value="true" />
+      <created>1779946290462</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779946290462</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="1.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.1" />
+  </component>
+</project>
