@@ -12,7 +12,7 @@ public interface UserRemote {
     UserDTO getUserByEmail(String email);
     UserDTO createUser(UserDTO user);
     UserDTO updateUser(UserDTO user);
-    void deleteUser(String username);
+    void deleteUser(Long id);
     List<UserDTO> getAllUsers();
 
 }

@@ -28,7 +28,7 @@ public class UserSessionBean implements UserRemote {
     }
 
     @Override
-    public void deleteUser(String username) {
+    public void deleteUser(Long id) {
         System.out.println("UserSessionBean: deleteUser");
     }
 
