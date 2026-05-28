@@ -35,7 +35,7 @@
                     <generateClient>true</generateClient>
 
                     <clientExcludes>
-                        <clientExclude>lk/jiat/ecomm/bean/*</clientExclude>
+                        <clientExclude>lk/jiat/ecomm/user/bean/*</clientExclude>
                     </clientExcludes>
 
                     <clientIncludes>
