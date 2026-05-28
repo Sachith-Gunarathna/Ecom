@@ -25,4 +25,25 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-ejb-plugin</artifactId>
+                <version>3.2.1</version>
+                <configuration>
+                    <generateClient>true</generateClient>
+
+                    <clientExcludes>
+                        <clientExclude>lk/jiat/ecomm/bean/*</clientExclude>
+                    </clientExcludes>
+
+                    <clientIncludes>
+                        <clientInclude>lk/jiat/ecomm/user/*</clientInclude>
+                    </clientIncludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
