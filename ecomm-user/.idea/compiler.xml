@@ -9,5 +9,8 @@
         <module name="ecomm-user" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EJB" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

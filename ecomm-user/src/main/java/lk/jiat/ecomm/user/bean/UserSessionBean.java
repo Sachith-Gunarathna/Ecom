@@ -1,10 +1,12 @@
 package lk.jiat.ecomm.user.bean;
 
+import jakarta.ejb.Stateless;
 import lk.jiat.ecomm.user.dto.UserDTO;
 import lk.jiat.ecomm.user.remote.UserRemote;
 
 import java.util.List;
 
+@Stateless
 public class UserSessionBean implements UserRemote {
 
     @Override

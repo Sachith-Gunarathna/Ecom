@@ -6,8 +6,7 @@
 
     <groupId>lk.jiat</groupId>
     <artifactId>ecomm-user</artifactId>
-    <version>1.0-</version>
-    <name>ecomm-user</name>
+    <version>1.0</version>
     <packaging>ejb</packaging>
 
     <properties>
@@ -26,6 +25,7 @@
     </dependencies>
 
     <build>
+        <finalName>${project.artifactId}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -34,13 +34,13 @@
                 <configuration>
                     <generateClient>true</generateClient>
 
-                    <clientExcludes>
-                        <clientExclude>lk/jiat/ecomm/user/bean/*</clientExclude>
-                    </clientExcludes>
+<!--                    <clientExcludes>-->
+<!--                        <clientExclude>lk/jiat/ecomm/user/bean/*</clientExclude>-->
+<!--                    </clientExcludes>-->
 
-                    <clientIncludes>
-                        <clientInclude>lk/jiat/ecomm/user/*</clientInclude>
-                    </clientIncludes>
+<!--                    <clientIncludes>-->
+<!--                        <clientInclude>lk/jiat/ecomm/user/*</clientInclude>-->
+<!--                    </clientIncludes>-->
                 </configuration>
             </plugin>
         </plugins>
