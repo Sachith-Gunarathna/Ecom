@@ -3,7 +3,7 @@ package lk.jiat.ecomm.user.remote;
 import jakarta.ejb.Remote;
 
 @Remote
-public interface TestSession {
+public interface TestRemote {
 
     public void test();
 

@@ -1,10 +1,10 @@
 package lk.jiat.ecomm.user.bean;
 
 import jakarta.ejb.Stateless;
-import lk.jiat.ecomm.user.remote.TestSession;
+import lk.jiat.ecomm.user.remote.TestRemote;
 
 @Stateless
-public class TestSessionBean implements TestSession {
+public class TestRemoteBean implements TestRemote {
 
 
     @Override

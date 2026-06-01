@@ -1,5 +1,5 @@
 lk\jiat\ecomm\user\dto\UserDTO.class
-lk\jiat\ecomm\user\bean\TestSessionBean.class
+lk\jiat\ecomm\user\remote\TestRemote.class
+lk\jiat\ecomm\user\bean\TestRemoteBean.class
 lk\jiat\ecomm\user\bean\UserSessionBean.class
-lk\jiat\ecomm\user\remote\TestSession.class
 lk\jiat\ecomm\user\remote\UserRemote.class
