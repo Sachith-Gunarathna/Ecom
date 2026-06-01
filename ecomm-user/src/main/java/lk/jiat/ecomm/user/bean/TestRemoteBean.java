@@ -7,8 +7,23 @@ import lk.jiat.ecomm.user.remote.TestRemote;
 public class TestRemoteBean implements TestRemote {
 
 
+    int i;
+
+    public TestRemoteBean(){
+        System.out.println("TestSessionBean created" + this);
+    }
+
     @Override
-    public void test() {
-        System.out.println("TestSessionBean: test");
+    public String test() {
+
+        i++;
+
+        try {
+            Thread.sleep(10000);
+        }catch (InterruptedException e){
+            throw new RuntimeException(e);
+        }
+
+       return "TestSessionBean: test "+i ;
     }
 }

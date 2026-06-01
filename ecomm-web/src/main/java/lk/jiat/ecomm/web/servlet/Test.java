@@ -25,9 +25,10 @@ public class Test extends HttpServlet {
 
             InitialContext ic = new InitialContext();
             TestRemote testRemote = (TestRemote)
-                    ic.lookup("java:global/ecomm-user-1.0/TestSessionBean");
+                    ic.lookup("java:global/ecomm-user/TestRemoteBean");
 
-            testRemote.test();
+           String test =  testRemote.test();
+           resp.getWriter().write("Result: "+test);
 
 //            List<UserDTO> allUser = userRemote.getAllUsers();
 //            for(UserDTO user : allUser){
