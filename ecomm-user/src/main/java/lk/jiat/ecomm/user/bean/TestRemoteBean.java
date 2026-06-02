@@ -2,10 +2,11 @@ package lk.jiat.ecomm.user.bean;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
+import jakarta.ejb.Stateful;
 import jakarta.ejb.Stateless;
 import lk.jiat.ecomm.user.remote.TestRemote;
 
-@Stateless
+@Stateful
 public class TestRemoteBean implements TestRemote {
 
 
