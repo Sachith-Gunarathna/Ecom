@@ -5,6 +5,8 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+import jakarta.websocket.Session;
 import lk.jiat.ecomm.user.dto.UserDTO;
 import lk.jiat.ecomm.user.remote.TestRemote;
 import lk.jiat.ecomm.user.remote.UserRemote;
@@ -23,9 +25,19 @@ public class Test extends HttpServlet {
 
         try {
 
-            InitialContext ic = new InitialContext();
-            TestRemote testRemote = (TestRemote)
-                    ic.lookup("java:global/ecomm-user/TestRemoteBean");
+            TestRemote testRemote;
+
+            HttpSession session = req.getSession();
+            if(session.getAttribute("testRemote") == null){
+
+                InitialContext ic = new InitialContext();
+                 testRemote = (TestRemote)
+                        ic.lookup("java:global/ecomm-user/TestRemoteBean");
+
+                session.setAttribute("testRemote", testRemote);
+            }else{
+                testRemote = (TestRemote) session.getAttribute("testRemote");
+            }
 
            String test =  testRemote.test();
            resp.getWriter().write("Result: "+test);
